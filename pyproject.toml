@@ -1,0 +1,11 @@
+[project]
+name = "plastic-pollution-tracking"
+version = "0.1.0"
+description = "Scrape social media and satellite imagery for plastic pollution tracking"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=3.0.2",
+    "playwright>=1.59.0",
+    "python-dotenv>=1.0.0",
+]
