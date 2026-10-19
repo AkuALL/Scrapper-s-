@@ -20,3 +20,5 @@ Hasil disimpan ke lokasi yang diatur di `config.py` (default di dalam `data/`).
 - `.env` menyimpan `AUTH_TOKEN` dan `CT0` untuk X, serta `MS_TOKEN` dan `SESSION_ID` untuk TikTok. Kredensial hanya perlu diisi untuk scraper yang aktif.
 
 Browser Playwright dibuka saat scraper berjalan.
+
+Scraper melewati postingan yang ID atau link-nya sudah ada di file output. Duplikat lama pada file output akan dirapikan sebelum scraping; jika datanya berbeda, baris terakhir dipertahankan.
